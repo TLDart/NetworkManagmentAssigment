@@ -1,0 +1,20 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	dns1.cbr.gisi.pt. webmaster.cbr.gisi.pt. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dns1.cbr.gisi.pt.
+@	IN	NS	dns2.lx.gisi.pt.
+
+
+dns1.cbr.gisi.pt.	IN 	A 	10.254.254.1
+dns2.lx.gisi.pt.	IN 	A 	10.254.254.2
+
+5 	PTR 	mx.cbr.gisi.pt.
+; Mail server should be added here
