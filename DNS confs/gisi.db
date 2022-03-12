@@ -11,7 +11,7 @@ $TTL	604800
 ;
 		IN	NS 	dns1
 		IN 	MX	10	mx.cbr
-		IN 	MX	20	mx.lx
+		IN 	MX	10	mx.lx
 
 
 dns1 		IN 	A	10.254.254.1

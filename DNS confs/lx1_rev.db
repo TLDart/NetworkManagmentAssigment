@@ -16,7 +16,7 @@ $TTL	604800
 dns2.lx.gisi.pt.	IN 	A 	10.254.254.2
 dns1.cbr.gisi.pt.	IN 	A 	10.254.254.1
 
-5 	PTR 	mx.lx.gisi.pt.
+5 		IN		PTR 	mx.lx.gisi.pt.
 ; Mail server should be added here
 
 10      IN      PTR      dhcp4.lx.gisi.pt.

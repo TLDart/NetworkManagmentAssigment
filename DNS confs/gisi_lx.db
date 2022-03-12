@@ -19,9 +19,9 @@ gw 		IN 	A 	10.254.254.2
 web		IN 	A 	1.1.1.1
 mx 		IN 	A 	172.21.1.5
 
-dhcp1           IN      A       192.168.100.10
-dhcp2           IN      A       192.168.100.11
-dhcp3           IN      A       192.168.100.1
+dhcp1           IN      A       192.168.200.10
+dhcp2           IN      A       192.168.200.11
+dhcp3           IN      A       192.168.200.12
 
 dhcp4           IN      A       172.21.1.10
 dhcp5           IN      A       172.21.1.11
