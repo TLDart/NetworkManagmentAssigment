@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	dns2.lx.gisi.pt.  webmaster.lx.gisi.pt (
-			      2		; Serial
+		 2022030901		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -18,3 +18,11 @@ dns1.cbr.gisi.pt.       IN      A       10.254.254.1
 gw 		IN 	A 	10.254.254.2
 web		IN 	A 	1.1.1.1
 mx 		IN 	A 	172.21.1.5
+
+dhcp1           IN      A       192.168.100.10
+dhcp2           IN      A       192.168.100.11
+dhcp3           IN      A       192.168.100.1
+
+dhcp4           IN      A       172.21.1.10
+dhcp5           IN      A       172.21.1.11
+dhcp6           IN      A       172.21.1.12 

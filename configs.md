@@ -33,7 +33,7 @@
     auto lo
     iface lo inet loopback
 
-#### Config Network Interfaces
+    #Config Network Interfaces
     allow-hotplug ens160
     auto ens160
     iface ens160 inet dhcp

@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	dns1.cbr.gisi.pt. webmaster.cbr.gisi.pt. (
-			      1		; Serial
+		 2022030900		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -15,3 +15,7 @@ $TTL	604800
 
 dns1.cbr.gisi.pt.	IN 	A 	10.254.254.1
 dns2.lx.gisi.pt.	IN 	A 	10.254.254.2
+
+10      IN      PTR      dhcp1.cbr.gisi.pt.
+11      IN      PTR      dhcp2.cbr.gisi.pt.
+12      IN      PTR      dhcp3.cbr.gisi.pt.
