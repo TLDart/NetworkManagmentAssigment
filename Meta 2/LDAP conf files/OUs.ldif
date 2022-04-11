@@ -1,0 +1,7 @@
+dn: ou=people, dc=gisi, dc=pt
+ou: people
+objectClass: organizationalUnit
+
+dn: ou=group, dc=gisi, dc=pt
+ou: group
+objectClass: organizationalUnit

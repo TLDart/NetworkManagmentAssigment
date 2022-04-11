@@ -1,0 +1,9 @@
+dn: cn=managers,ou=group,dc=gisi,dc=pt
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1010
+
+dn: cn=developers,ou=group,dc=gisi,dc=pt
+objectClass: top
+objectClass: posixGroup
+gidNumber: 1011
