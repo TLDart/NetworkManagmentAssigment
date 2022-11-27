@@ -1,0 +1,21 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     dns.gisi.pt. webmaster.gisi.pt. (
+                 2022030900             ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      dns.gisi.pt.
+
+dns.gisi.pt.    IN      A       10.10.10.5
+
+1      IN      PTR      ha-01.gisi.pt.
+2      IN      PTR      ha-02.gisi.pt.
+3      IN      PTR      web1.gisi.pt.
+4      IN      PTR      web2.gisi.pt.
+5      IN      PTR      dns.gisi.pt.
+42      IN      PTR      gisi.pt.
